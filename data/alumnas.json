@@ -1,0 +1,17 @@
+[{
+    "nombre" : "Verona",
+    "apellido" : "Rossi",
+    "edad" : 24,
+    "mail" : "verona.rossi@davinci.edu.ar",
+    "instagram" : "verona_rossi_",
+    "img" : "verona.png"
+},
+{
+    "nombre" : "Maria Jorgelina",
+    "apellido" : "Pestalardo",
+    "edad" : 28,
+    "mail" : "maria.pestalardo@davinci.edu.ar",
+    "instagram" : "jorpesta",
+    "img" : "jorgelina.png"
+}
+]

@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(230, 211, 231);
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2{
+    font-family: 'VT323', monospace;
+    font-size: 90px;
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+}
+
+h3{
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+
+}
+
+h4{
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+
+}
+
+h5{
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+}
+
+p{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+li{
+    font-family: 'Noto Sans Mono', monospace;
+}
+li a{
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.nav-link{
+    color: aliceblue;
+
+}
+
+#carousel{
+    box-shadow: 8px 10px 10px 1px rgba(218, 111, 184, 0.555);
+}
+.consola{
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 1px 1px 2px rgb(230, 18, 163);
+
+}
+
+.contacto{
+    text-shadow: 1px 1px 2px rgb(230, 18, 163);
+}
+
+.datos{
+    text-shadow: 1px 1px 2px rgb(230, 18, 163);
+}
+.navUsuario{
+    background-color: #d887ad;
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+    box-shadow: 8px 10px 10px 1px rgba(218, 111, 184, 0.555);
+
+}
+
+
+.navDash{
+    background: linear-gradient(150deg, #fff102,  #f10271, #00c298);
+    text-shadow: 1px 1px 2px rgb(218, 111, 185);
+    box-shadow: 8px 10px 10px 1px rgba(218, 111, 184, 0.555);
+
+}
+
+.fotoAlumna{
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+.botonColorido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+    background: linear-gradient(150deg, #fff102,  #f10271, #00c298);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+.btn-editar{
+    color: aliceblue;
+    background:  #00c298;
+}
+
+.btn-eliminar{
+    color: aliceblue;
+    background: #f10271;
+}
+
+.btn-finalizar{
+    color: aliceblue;
+    background:  #1b8f76;
+}
+
+.sombra{
+    filter: drop-shadow(16px 16px 10px rgba(228, 122, 157, 0.815));
+}
+
+.sombra-form{
+    filter: drop-shadow(10px 10px 10px rgba(218, 109, 145, 0.815));
+}
+
+.titulo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.neon{
+    font-family: 'Press Start 2P',  cursive;
+    font-weight: 200;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    margin: 50px;
+    font-size: 60px;
+}
+
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 1px #fff,
+        0 0 9px #fff,
+        0 0 15px rgb(235, 228, 228),
+        0 0 40px #f10271,
+        0 0 80px #f10271,
+        0 0 90px #f10271,
+        0 0 100px #f10271,
+        0 0 150px #f10271;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#carousel {
+    max-width: 100%;
+    max-height: 60%;
+}
+
+
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 100px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    font-size: 90px;
+}
+
+a{
+    text-decoration: none;
+    color:  #f10271;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1660px) {
+
+.carousel-caption {
+        font-size: 60px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .carousel-caption {
+            font-size: 40px;
+            top: 20px;
+        }
+    }
+
+@media (max-width: 1000px) {
+
+    .quienes_somos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .parrafouno{
+        display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .parrafodos{
+    display: flex;
+    flex-direction: column;
+}
+    }
+
+@media (max-width: 800px) {
+
+        .carousel-caption {
+                font-size: 30px;
+                top: 10px;
+            }
+
+        }
+
+        .infoAlumna{
+            font-size: 16px;
+        }
+
+
+@media (max-width: 400px) {
+
+    .infoAlumna{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .neon{
+        font-size: 20px;
+    }
+
+    .titulo{
+        padding: 5px;
+    }
+
+
+    .carousel-caption {
+        font-size: 15px;
+        top: 0px;
+    }
+    .botonColorido{
+        font-size: 16;
+        width: 100px;
+        justify-content: center;
+    }
+
+    .titulo-home{
+        font-size: 30px;
+    }
+
+    .parrafo-home{
+        font-size: 25px;
+    }
+
+}
+
+
+

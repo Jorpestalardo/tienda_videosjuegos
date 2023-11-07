@@ -1,0 +1,5 @@
+USUARIOS:
+
+nombre de usuario: jorpesta (superAdmin) contraseña: 1234password
+
+nombre de usuario: veroRossi (usuario) contraseña: 1234password
